@@ -2,4 +2,82 @@
 	padding: 0px;
 	margin: 0px;
 	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+	font-size: 175%;
+	text-align: center;
+	margin: 50px 0 50px 0;
+}
+h2{
+	font-size:  125%;
+	display: inline-block;
+	width: 30%;
+	float: right;
+	text-align: center;
+	padding: 1% 0 1% 0;
+}
+
+section, h2{
+	border:1px solid black;
+}
+p{
+	clear: both;
+	padding: 2%;
+}
+
+#section1{
+background-color: #75329F;
+color: white;
+}
+#section1 > h2{
+background-color: #00FF1C;
+color: white;
+}
+#section2{
+background-color: #75E651;
+}
+#section2 > h2{
+background-color: blue;
+color: white;
+}
+#section3{
+background-color: #75EB9F;
+}
+#section3 > h2{
+background-color: red;
+color: white;
+}
+
+@media (min-width : 992px){
+	section{
+		width:32%;
+		float: left;
+		margin-right: 1%;
+	}
+	#section1{
+		margin-left: 1%;
+	}
+}
+
+@media (min-width: 778px) and (max-width: 991px){
+	#section1, #section2{
+		width: 48.5%;
+		float: left;
+		margin-right: 1%;
+		margin-bottom: 1%;
+	}
+	#section1{
+		margin-left: 1%;
+	}
+	#section3{
+		clear: both;
+		margin: 0 1% 0 1%;
+	}
+}
+
+@media (max-width: 777px){
+	section{
+		margin: 0 1% 1% 1%;
+	}
 }
