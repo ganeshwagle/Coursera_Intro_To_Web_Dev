@@ -60,7 +60,7 @@ color: white;
 	}
 }
 
-@media (min-width: 778px) and (max-width: 991px){
+@media (min-width: 768px) and (max-width: 991px){
 	#section1, #section2{
 		width: 48.5%;
 		float: left;
@@ -76,7 +76,7 @@ color: white;
 	}
 }
 
-@media (max-width: 777px){
+@media (max-width: 767px){
 	section{
 		margin: 0 1% 1% 1%;
 	}
